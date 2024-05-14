@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "colbert"
+version = "0.1.0"
+description = ""
+authors = ["chetan <chetan@scalers.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+faiss-gpu = "^1.7.2"
+torch = "^2.3.0"
+torchaudio = "^2.3.0"
+torchvision = "^0.18.0"
+bitarray = "^2.9.2"
+datasets = "^2.19.1"
+gitpython = "^3.1.43"
+jupyter = "^1.0.0"
+jupyterlab = "^4.2.0"
+ninja = "^1.11.1.1"
+scipy = "^1.13.0"
+tqdm = "^4.66.4"
+transformers = "^4.40.2"
+ujson = "^5.10.0"
+flask = "^3.0.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
